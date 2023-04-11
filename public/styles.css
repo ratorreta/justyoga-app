@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Rajdhani&family=Teko&family=Khand&display=swap");
+
+body {
+  background-color: #fdefef;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  color: #e185b4;
+  width: 50%;
+  margin: 2rem auto;
+  font-family: "Teko", sans-serif;
+  /* min-height: 100vh;
+    display: flex;
+    flex-direction: column; */
+}
+
+/* font options for header: khand, advent pro, orbitron, play, comforter brush */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  color: #c85c8e;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.date-time {
+  font-family: "Teko", sans-serif;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.show-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-section button {
+  background-color: rgba(200, 92, 142, 0.5);
+}
+
+.show-section button:hover {
+  background-color: #c85c8e;
+}
+
+.section-title {
+  background-color: rgba(200, 92, 142, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.section-title:hover {
+  background-color: #c85c8e;
+  border-color: transparent;
+}
+
+.section-title h2 {
+  padding-top: 10px;
+}
+
+.section-content {
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.section-content h4 {
+  color: #bf0040;
+  font-size: 1.4rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  background-color: #cfeed2;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.practice-instruction {
+  margin-top: 10px;
+  padding-left: 15px;
+  border-radius: 10px;
+  color: #9c3866;
+}
+
+.channel-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #c85c8e;
+  border-color: transparent;
+  color: #fff;
+  border-radius: 2rem;
+}
+
+.btn:hover {
+  background-color: #f4bfbf;
+  color: #000;
+  border-color: transparent;
+}
+
+.btn:focus {
+  background-color: #f4bfbf;
+  color: #000;
+  border-color: transparent;
+}
+
+.dropdown-item:hover {
+  background-color: #f4bfbf;
+  color: #000;
+}
+
+.practice-image {
+  width: 50px;
+  height: 50px;
+}
+
+.practice-drpbutton {
+  background-color: #9c3866;
+  border-color: transparent;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.carousel {
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 7px;
+  height: 5px;
+  background-color: #7a3857;
+  border: solid 2px;
+  border-color: #fff;
+}
+
+#carouselExampleCaptions {
+  width: 400px;
+  height: 400px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-prev-icon:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0d9";
+  font-weight: 900;
+  font-size: 40px;
+  color: #7a3857;
+}
+
+.carousel-control-next-icon:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  font-weight: 900;
+  font-size: 40px;
+  color: #7a3857;
+}
+
+.summary-section {
+  background-color: rgba(238, 228, 238, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  gap: 20px;
+  color: #9c3866;
+}
+
+.summary-list {
+  padding-top: 15px;
+  padding-right: 65px;
+}
+
+.sbtn1,
+.sbtn2,
+.sbtn3 {
+  margin: 5px;
+}
+
+.youtube-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-results {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.videos-container {
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.videos {
+  height: 315px;
+  width: 420px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 10px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  color: #c85c8e;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 75%;
+  }
+  .btn {
+    font-size: medium;
+  }
+  .sbtn1,
+  .sbtn2,
+  .sbtn3 {
+    display: block;
+  }
+  #carouselExampleCaptions {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+    text-align: center;
+    float: none;
+    width: 100%;
+    font-size: large;
+  }
+  .date-time {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .section-content h4 {
+    font-size: 1rem;
+  }
+  .test-images {
+    height: auto;
+    width: 100%;
+  }
+  .search-results {
+    margin-top: 5%;
+    display: block;
+  }
+  .videos {
+    height: auto;
+    width: 100%;
+  }
+  .section-title {
+    padding: 0.2rem;
+    margin-top: 0.4rem;
+  }
+  .practice-image {
+    width: 30px;
+    height: 30px;
+  }
+  .practice-drpbutton {
+    padding: 0.4rem;
+  }
+  .footer {
+    margin-top: 1.5rem;
+  }
+}
